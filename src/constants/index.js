@@ -156,11 +156,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Monkeys (NFT Platform)",
+      title: "Full stack Dev",
+      company_name: "PT Ramat Loka Teknologi-Monkeys (NFT Platform)",
       icon: monkeys,
       iconBg: "#EEEEEE",
-      date: "year 2024",
+      date: "year of 2024",
       points: [
         "NFT Minting, Integrated smart contracts to allow users to mint and own unique NFTs.",
         "Blockchain & Web3, Utilized Solidity, Web3.js, and Ethereum blockchain to power the platform.",
@@ -169,46 +169,53 @@ import {
       ],
     },
     {
-      title: "UI / UX Designer",
+      title: "Front-End Dev & (UI/UX)",
       company_name: "PT Curaweda Palagan Innotech",
       icon: curaweda,
       iconBg: "#EEEEEE",
-      date: "year 2024 - present",
+      date: "year of 2024",
       points: [
-        "User Research & Wireframing, Conducted research to understand user needs and translated insights into wireframes & prototypes.",
-        "UI Design, Designed clean and modern interfaces with a focus on usability and accessibility.",
-        "Collaboration, Worked closely with developers, product managers, and stakeholders to align design with business goals.",
-        "Interactive Prototyping, Developed interactive prototypes to enhance user testing and design validation.",
+        "Build modern interfaces tailored to project requirements and UX principles.",
+        "Conduct user research and create wireframes, translating insights into prototypes.",
+        "Design clean, consistent, and accessible user interfaces.",
+        "Collaborate across teams to align design with business goals.",
+        "Develop interactive prototypes for user testing and design validation before full development.",
+      ],
+    },
+    {
+      title: "Operations Team",
+      company_name: "PT Curaweda Palagan Innotech",
+      icon: curaweda,
+      iconBg: "#EEEEEE",
+      date: "2025 - present",
+      points: [
+        "Create and maintain clear documentation (SOPs, process notes, and project records).",
+        "Write meeting minutes and track action items with owners and due dates.",
+        "Build project timelines/roadmaps and keep progress up to date.",
+        "Draft PRDs (problem definition, scope, user stories, acceptance criteria).",
+        "Prepare PKS (partnership/collaboration agreements) drafts with stakeholders and legal.",
       ],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      testimonial: "Pengerjaan cepat, komunikasi baik.",
+      name: "Hafizh",
+      designation: "Freelancer Mobile Apps",
+      company: "-",
+      image: "https://randomuser.me/api/portraits/men/65.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Tampilan yang dibuat keren, hasil pengerjaan sangat sesuai dengan yang diharapkan.",
+      name: "Adi Rachmadi",
+      designation: "Manager",
+      company: "Inhoftank Motor",
+      image: "https://randomuser.me/api/portraits/men/66.jpg",
     },
   ];
+
   
   const projects = [
     {
@@ -244,7 +251,7 @@ import {
     {
       name: "Calenderize",
       description:
-      "web-based platform that simplifies the management of employee leave, and permissions within a company, ensuring a more efficient and organized administration.",
+        "web-based platform that simplifies the management of employee leave, and permissions within a company, ensuring a more efficient and organized administration.",
       tags: [
         {
           name: "React Js",
@@ -265,7 +272,7 @@ import {
     {
       name: "Monkeys",
       description:
-      "Monkeys is an NFT platform that enables users to easily mint their own NFTs, providing a seamless, secure, and efficient experience for digital asset creation and management.",
+        "Monkeys is an NFT platform that enables users to easily mint their own NFTs, providing a seamless, secure, and efficient experience for digital asset creation and management.",
       tags: [
         {
           name: "React Js",
@@ -304,6 +311,10 @@ import {
         {
           name: "Figma",
           color: "blue-text-gradient",
+        },
+        {
+          name: "Laravel",
+          color: "green-text-gradient",
         },
       ],
       image: projecterp,
