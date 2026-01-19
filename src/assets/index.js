@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import php from "./tech/php.png";
 import laravel from "./tech/laravel.png";
 import vite from "./tech/vite.png";
+import python from "./tech/python.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -43,6 +44,8 @@ import projectcalenderize from "./calenderize.png"
 import projectmonkeys from "./monkeys.png"
 import projecthrd from "./penggajian.png"
 import projecterp from "./erp.png"
+import projectpark from "./park.png";
+
 
 export {
   logo,
@@ -84,7 +87,9 @@ export {
   projectmonkeys,
   projecthrd,
   projecterp,
+  projectpark,
   php,
   laravel,
-  vite
+  vite,
+  python
 };
